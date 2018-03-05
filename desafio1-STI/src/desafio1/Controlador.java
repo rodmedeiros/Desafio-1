@@ -46,7 +46,7 @@ public class Controlador {
             verificaUffMail(aux, alunos);
         } else {
             System.out.println("\nO aluno não possui cadastro ativo!");
-            Controlador.verificaMatricula(alunos);
+            verificaMatricula(alunos);
         }
     }
     //verifica se o aluno já possui uffmail

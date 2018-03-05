@@ -53,7 +53,7 @@ public class Controlador {
     private static void verificaUffMail(Aluno aux, ArrayList<Aluno> alunos) {
         if (aux.getUffMail().contains("@")){
             System.out.println("\nO aluno já possui Uffmail cadastrado!");
-            Controlador.verificaMatricula(alunos);
+            verificaMatricula(alunos);
         } else {
             GeradorUffmail.MenuOpcoes(aux);
         }
